@@ -18,7 +18,7 @@ const Contact: NextPage = () => {
       <TransparentNavBar Selected={"Contact"} color="transparent" secondColor="black" />
       <main className={styles.main} style={{ backgroundColor: "#F3F5FA" }}>
         <section className={AboutStyle.ImgWrapper}>
-          <Image src="/office.jpg" priority={true} layout="fill" objectFit="cover" objectPosition="center" />
+          <Image src="/office.jpg" alt="Office" priority={true} layout="fill" objectFit="cover" objectPosition="center" />
           <div className={AboutStyle.darkner}></div>
           <div className={AboutStyle.h1}>
             Contact us

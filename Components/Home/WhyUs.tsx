@@ -12,8 +12,7 @@ const WhyUs: React.FC = () => {
       <h1 className="title">Our values</h1>
       <section className={styles.CardWrapper}>
         <Card key={0} icon={faBattleNet} title="Quality" />
-        <Card key={1} icon={faBullseye} title="Experience" />
-        
+        <Card key={1} icon={faBullseye} title="Experience" /> 
         <Card key={2} icon={faHandHoldingUsd} title="Fair price" />
         <Card key={3} icon={faPeopleCarry} title="Support" />
       </section>
