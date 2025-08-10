@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <FontAwesomeIcon width="22" icon={faLinkedin} />
         <FontAwesomeIcon width="22" icon={faInstagram} />
         <FontAwesomeIcon width="22" icon={faFacebook} />
-        <a className={"a"}>Copyright © Docsly d.o.o</a>
+        <a className={"a"}>Copyright © Docsly</a>
       </footer>
     </>
   );

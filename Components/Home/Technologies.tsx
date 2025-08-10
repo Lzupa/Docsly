@@ -12,12 +12,46 @@ const Technologies: React.FC = () => {
         Technologies we use
       </h1>
       <section className={styles.CardWrapper}>
-        <Card link="/react.svg" title="React" text={randomText} />
-        <Card link="/next.svg" title="Next" text={randomText} />
-        <Card link="/flutter.svg" title="Flutter" text={randomText} />
-        <Card link="/jsHtmlCss.svg" title="Js, html, css" text={randomText} />
-        <Card link="/android.svg" title="Android" text={randomText} />
-        <Card link="/backend.svg" title="Node, php, .net" text={randomText} />
+        <Card
+          link="/react.svg" // placeholder image for WordPress
+          title="WordPress"
+          text="The world’s most popular CMS for building flexible, easy-to-manage websites for any business or individual."
+        />
+        <Card
+          link="/next.svg" // placeholder image for Figma
+          title="Figma"
+          text="A collaborative design tool for creating stunning user interfaces and prototypes, ensuring your ideas look great before development."
+        />
+        <Card
+          link="/jsHtmlCss.svg"
+          title="JavaScript, HTML & CSS"
+          text="The core technologies for creating dynamic, responsive, and visually appealing websites."
+        />
+        <Card
+          link="/react.svg"
+          title="React"
+          text="A powerful JavaScript library for building fast, interactive user interfaces for web and mobile apps."
+        />
+        <Card
+          link="/next.svg"
+          title="Next.js"
+          text="A modern framework for building scalable, SEO-friendly websites and web applications with React."
+        />
+        <Card
+          link="/android.svg"
+          title="Android"
+          text="Native development for Android devices, delivering high-performance mobile experiences."
+        />
+        <Card
+          link="/flutter.svg"
+          title="Flutter"
+          text="Google’s toolkit for building beautiful, cross-platform mobile apps from a single codebase."
+        />
+        <Card
+          link="/backend.svg"
+          title="Node.js, PHP & .NET"
+          text="Robust backend solutions for your apps and websites, using reliable and scalable server technologies."
+        />
       </section>
     </div>
   );

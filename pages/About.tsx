@@ -20,7 +20,7 @@ const About: NextPage = () => {
       <TransparentNavBar color="transparent" secondColor="black" Selected={"About"} />
       <main className={styles.main}>
         <section className={AboutStyle.ImgWrapper}>
-          <Image src="/office.jpg" priority={true} layout="fill" objectFit="cover" objectPosition="center" />
+          <Image src="/office.jpg" alt="Office" priority={true} layout="fill" objectFit="cover" objectPosition="center" />
           <div className={AboutStyle.darkner}></div>
           <h1 className={AboutStyle.h1}>About us</h1>
         </section>

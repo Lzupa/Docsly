@@ -39,7 +39,7 @@ export default function Komentari() {
         loop={true}
         id="swiper"
         navigation={false}
-        pagination={true}
+        pagination={{ clickable: true }}
         className={styles.swiper}
       >
         {Comment.map((val, index) => (

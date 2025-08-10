@@ -4,9 +4,8 @@ import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import AboutStyle from "../styles/About.module.scss";
 import TransparentNavBar from "../Components/NavBar/TransparentNavBar";
-import { GoogleMaps } from "../Components/SharedFolder/GoogleMaps";
-import ContactBigForm from "../Components/Contact/ContactBigForm";
 import ContactInfo from "../Components/Contact/ContactInfo";
+import ContactFormRetro from "../Components/SharedFolder/ContactFormRetro";
 
 const Contact: NextPage = () => {
   return (
@@ -26,7 +25,7 @@ const Contact: NextPage = () => {
             <h3 style={{ fontSize: "1rem", textAlign: "center" }}>Your digital partner</h3>
           </div>
         </section>
-        <ContactBigForm />
+        <ContactFormRetro title="You have a question? We will get back as fast as we can!" />
         <ContactInfo />
       </main>
 

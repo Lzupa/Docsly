@@ -8,7 +8,7 @@ import WebDev from "../Components/Services/WebDev";
 import WebSite from "../Components/Services/WebSite";
 import MobileDev from "../Components/Services/MobileDev";
 import CompanySolution from "../Components/Services/CompanySolutions";
-import { ContactFrom } from "../Components/SharedFolder/ContactForm";
+import ContactFormRetro from "../Components/SharedFolder/ContactFormRetro";
 
 const home: NextPage = () => {
   return (
@@ -26,7 +26,7 @@ const home: NextPage = () => {
         <WebSite />
         <MobileDev />
         <CompanySolution />
-        <ContactFrom />
+        <ContactFormRetro title="You have a question? We will get back as fast as we can!" />
       </main>
 
       <footer className=""></footer>
