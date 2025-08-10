@@ -27,7 +27,7 @@ const Index: NextPage = () => {
             <h1 className={indexStyles.h1} style={{ color: "white" }}>
               Docsly
             </h1>
-            <h3 className={indexStyles.h3}>Web development</h3>
+            <h3 className={indexStyles.h3} style={{ color: "white" }}>Web development</h3>
           </div>
         </section>
         <section className={indexStyles.BackgroundSecond}>
@@ -36,10 +36,9 @@ const Index: NextPage = () => {
         </section>
         <section className={indexStyles.thirdSection}>
           <h1 className={`title ${indexStyles.mainTitle}`} style={{ color: "white" }}>
-            Websites of tommorow
+            Digital Experiences of Tomorrow
           </h1>
-          <div
-            className="buttonFill"
+          <div className="buttonFill"
             onClick={() => {
               router.push("/home");
             }}

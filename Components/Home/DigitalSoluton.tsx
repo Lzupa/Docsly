@@ -5,27 +5,36 @@ import { faCalendarCheck, faChartLine, faShieldAlt } from "@fortawesome/free-sol
 const DigitalSolution: React.FC = () => {
   return (
     <div className={styles.DigitalSolution}>
-      <h1 className="title">Bring your buisiness to another level</h1>
+      <h1 className="title">Unlock Your Potential with Custom Digital Solutions</h1>
       <section className={styles.CardWrapper}>
-        <Card key={0} icon={faChartLine} />
-        <Card key={1} icon={faCalendarCheck} />
-        <Card key={2} icon={faShieldAlt} />
+        <Card
+          icon={faChartLine}
+          title="Grow with Data"
+          text="Track your progress and make smarter decisions with custom dashboards and analytics tools built for your business."
+        />
+        <Card
+          icon={faCalendarCheck}
+          title="Work Efficiently"
+          text="Automate tasks and manage your workflow with digital solutions designed to save you time and keep your team organized."
+        />
+        <Card
+          icon={faShieldAlt}
+          title="Stay Secure"
+          text="Protect your data and your customers with reliable, secure technology and ongoing support from Docsly."
+        />
       </section>
     </div>
   );
 };
 
-const Card: React.FC<{ icon: any }> = ({ icon }) => {
+const Card: React.FC<{ icon: any; title: string; text: string }> = ({ icon, title, text }) => {
   return (
     <article className={styles.Article}>
       <div className={styles.CircleWrapper}>
         <FontAwesomeIcon icon={icon} />
       </div>
-      <p>
-        Ut vel malesuada purus. Cras facilisis, purus sit amet tincidunt hendrerit, ligula erat faucibus augue, consequat imperdiet ex justo at eros.
-        Cras fringilla aliquam nibh, vitae vehicula sem dapibus vitae. Maecenas ullamcorper a nunc id posuere. Duis odio mauris, efficitur quis
-        viverra eu, consequat sit amet mauris.
-      </p>
+      <h2>{title}</h2>
+      <p>{text}</p>
     </article>
   );
 };

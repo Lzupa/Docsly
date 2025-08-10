@@ -7,33 +7,33 @@ import { motion } from "framer-motion";
 const OurOffer: React.FC = () => {
   return (
     <div className={styles.OurOffer}>
-      <h1 className="title">What do we do?</h1>
+      <h1 className="title">What Docsly Offers</h1>
       <section style={{ display: "flex" }}>
         <ul className={styles.ul}>
           <Item
             link="/design.svg"
-            title="Web design"
-            text="Our creative design solutions are for people, not for machines. Yet made by people and machines. "
+            title="Web Design"
+            text="Modern designs that make your business stand out and connect with your audience."
           />
           <Item
             link="/website.svg"
             title="Websites"
-            text="Our creative design solutions are for people, not for machines. Yet made by people and machines. "
+            text="Custom websites built with WordPress, React, or any stack you prefer. Tailored to your needs."
           />
           <Item
             link="/app.svg"
-            title="Web applications"
-            text="Our creative design solutions are for people, not for machines. Yet made by people and machines. "
+            title="Web Applications"
+            text="Web apps that streamline your business and engage your users."
           />
           <Item
             link="/mobApp.svg"
-            title="Mobile applications"
-            text="Our creative design solutions are for people, not for machines. Yet made by people and machines. "
+            title="Mobile Applications"
+            text="Mobile apps for any purpose: internal business tools or public apps on iOS and Android."
           />
           <Item
             link="/solution.svg"
-            title="Digital solutions for companies"
-            text="Our creative design solutions are for people, not for machines. Yet made by people and machines. "
+            title="Digital Solutions for Companies"
+            text="Need something unique? We deliver custom digital solutions to help your business grow and operate efficiently."
           />
         </ul>
         <section className={styles.PhoneMockUp} style={{ height: "800px", width: "500px", position: "relative", borderRadius: "1rem" }}>

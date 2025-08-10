@@ -13,10 +13,9 @@ const WhyUs: React.FC = () => {
       <section className={styles.CardWrapper}>
         <Card key={0} icon={faBattleNet} title="Quality" />
         <Card key={1} icon={faBullseye} title="Experience" />
-        <Card key={2} icon={faBuffer} title="Details" />
-        <Card key={3} icon={faHandHoldingUsd} title="Fair price" />
-        <Card key={4} icon={faPeopleCarry} title="Support" />
-        <Card key={5} icon={faFeather} title="Diversity" />
+        
+        <Card key={2} icon={faHandHoldingUsd} title="Fair price" />
+        <Card key={3} icon={faPeopleCarry} title="Support" />
       </section>
     </div>
   );

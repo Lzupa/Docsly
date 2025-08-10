@@ -23,20 +23,18 @@ const home: NextPage = () => {
       </Head>
       <MainNavBar Selected={"Home"} />
       <main className={styles.main}>
-        <div className={HomeStyles.title}>Quality first</div>
+        <div className={HomeStyles.title}>Building with Passion and Precision</div>
         <article className={HomeStyles.article}>
           <section style={{ width: "100%", height: "100%", minHeight: 350, position: "relative" }}>
             <Image alt="web dev quality" priority={true} src="/Quality.svg" layout="fill" objectFit="contain" objectPosition="center" />
           </section>
           <div className={HomeStyles.p}>
             <span style={{ display: "block", margin: "2rem 0" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet lectus lorem. Vivamus nec purus ligula. Cras massa quam,
-              vestibulum nec velit ac, laoreet dignissim massa. Nulla vel lorem ac velit cursus venenatis. Sed cursus velit varius ex lacinia, a
-              sagittis elit blandit. Nunc quis nisi aliquet, posuere erat hendrerit, scelerisque augue. Aliquam elementum cursus est eget bibendum.
-              Sed cursus facilisis mi nec porta. Suspendisse dapibus nec nunc ut scelerisque. Proin in nunc a quam suscipit mattis eu eu neque.
-              Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce posuere sollicitudin mi eget venenatis. Morbi nec leo sed enim
-              consectetur lacinia nec non mauris. Phasellus sagittis diam facilisis, laoreet sapien sed, dapibus diam. Mauris sed accumsan mauris.
-              Proin eleifend id tortor non ullamcorper.
+              Docsly helps startups and individuals launch their digital ideas with affordable, high-quality websites and apps. 
+              We work with any technology stack: WordPress, Next.js, React, and more - so you get a solution that fits your needs and budget.
+              <br /><br />
+              Whether you need a simple website, a custom web app, or a mobile application for your business or the public, our team delivers fast, reliable results. 
+              We also offer ongoing support and maintenance to keep your digital products running smoothly.
             </span>
             <div className="buttonFill reverse" style={{ borderColor: "black", color: "black" }}>
               Learn more
@@ -45,9 +43,11 @@ const home: NextPage = () => {
           </div>
         </article>
         <OurOffer />
-        <IzradaWeb title="Izrada web stranica" />
+        <IzradaWeb title="Launch Your Online Presence" text="At Docsly, we build websites that help you launch your business and reach new customers.  
+          Whether you need a simple landing page or a custom site with advanced features, we work with any technology stack: WordPress, Next.js, React, and more.  
+          Our process is fast, affordable, and tailored to your needs, so you get a website that looks great and works perfectly for your goals."/>
         <DigitalSolution />
-        <IzradaWeb title="Izrada mobilnih aplikacija" reverse={true} />
+        <IzradaWeb title="Apps That Grow With You" text="Docsly develops mobile and web applications that help your business grow and adapt. Whether you need an internal tool to streamline your workflow or a public app for your customers, we deliver solutions that are reliable, user-friendly, and built for any platform: iOS, Android, or the web. Our flexible approach means you get the right technology for your project, delivered quickly and affordably." reverse={true} />
         <WhyUs />
         <Technologies />
         <ContactFormRetro title="You have a question? We will get back as fast as we can!" />
